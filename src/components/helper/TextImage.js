@@ -1,7 +1,7 @@
 import React from 'react';
-import LinkWithName from './helper/LinkWithName';
-import '../styles/textImageStyle/topContentStyle.css'
-import '../styles/textImageStyle/contentStyle.css'
+import LinkWithName from './LinkWithName';
+import '../../styles/textImageStyle/contentStyle.css'
+import '../../styles/textImageStyle/topContentStyle.css'
 
 //description and image in a flexbox
 export default function TextImage({
