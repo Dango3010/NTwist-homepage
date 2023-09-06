@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import TextImage from './components/TextImage';
+import TextImage from './components/TextImage'
 
 function App() {
   return (
@@ -17,3 +17,4 @@ function App() {
 }
 
 export default App;
+
