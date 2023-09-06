@@ -7,10 +7,7 @@ export default function Header() {
   return (
     <header className="container">
       <div className='icon-with-text'>
-        <img style={{ width: '70px', height: '65px' }} src="images/cropped-favicon-180x180.png" alt='ntwist-icon' />
-        <h1 className='bold-text'>
-          NTWIST
-        </h1>
+        <img style={{ width: '181px', height: '65px' }} src="images/ntwist-logo-dark.png" alt='ntwist-icon' />
       </div>
 
       <div style={{ fontSize: '23px', paddingRight: '20px' }}>
@@ -26,22 +23,22 @@ export default function Header() {
 
             <ul className={`dropdown-content ${dropState ? 'show' : ''}`}>
               <li className='li-tag'>
-                <a className='bold-text' href="https://ntwist.com/project/sustainability-assistant/">
+                <a className='bold-text-dropdown' href="https://ntwist.com/project/sustainability-assistant/">
                   <span>Sustainability</span>
                 </a>
               </li>
               <li className='li-tag'>
-                <a className='bold-text' href="https://ntwist.com/metal-mining/">
+                <a className='bold-text-dropdown' href="https://ntwist.com/metal-mining/">
                   <span>Mineral Processing</span>
                 </a>
               </li>
               <li className='li-tag'>
-                <a className='bold-text' href="https://ntwist.com/mine-to-mill-to-mine-optimization/">
+                <a className='bold-text-dropdown' href="https://ntwist.com/mine-to-mill-to-mine-optimization/">
                   <span>Mine-to-mill-to-mine optimization</span>
                 </a>
               </li>
               <li className='li-tag'>
-                <a className='bold-text' href="https://ntwist.com/oil-gas/">
+                <a className='bold-text-dropdown' href="https://ntwist.com/oil-gas/">
                   <span>Oil & Gas</span>
                 </a>
               </li>

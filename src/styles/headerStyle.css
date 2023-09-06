@@ -1,4 +1,4 @@
-/* css for the parent header tag */
+/* parent header style */
 .container {
   background-color: lightcyan;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-/* style for icon with text*/
+/* icon with text style*/
 .icon-with-text {
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@
   padding: 10px;
 }
 
-/* Basic styles for the dropdown */
+/* dropdown basic style */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -32,7 +32,7 @@
   font-size: 20px;
 }
 
-/* dropdown content (hidden by default) */
+/* dropdown content (hidden by default) style */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -42,18 +42,29 @@
   padding: inherit;
 }
 
-/* styles for lig tag */
+/* dropdown text style */
+.bold-text-dropdown {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: blue;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: text;
+}
+
+/* list tag style */
 .li-tag {
   padding: 10px;
   list-style-type: none;
 }
 
-/* dropdown content (open the dropdown menu) */
+/* dropdown content (open the dropdown menu) style */
 .dropdown-content.show {
   display: block;
 }
 
-/* header texts */
+/* header text style */
 .bold-text {
   font-weight: bold;
   text-transform: uppercase;
