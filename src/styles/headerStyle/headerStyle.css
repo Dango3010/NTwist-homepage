@@ -1,6 +1,8 @@
 /* parent header style */
 .container {
   background-color: lightcyan;
+  position: fixed;
+  width: -webkit-fill-available;
   display: flex;
   justify-content: space-between;
   align-items: center;

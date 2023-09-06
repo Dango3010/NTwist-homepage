@@ -23,7 +23,6 @@ export default function TextImage({
         />
       }
 
-
       <div
         className={heading ? 'content' : 'topContent'}
       >
@@ -59,7 +58,6 @@ export default function TextImage({
           alt={altName}
         />
       }
-
     </div>
   );
 }
