@@ -9,9 +9,7 @@ export default function Header() {
   return (
     <header className="container">
       {/* NTwist icon */}
-      <div className='icon-with-text'>
-        <img className='icon' src="images/ntwist-logo-dark.png" alt='ntwist-icon' />
-      </div>
+      <img className='icon' src="images/ntwist-logo-dark.png" alt='ntwist-icon' />
       {/* other page links */}
       <div className='group-link'>
         <nav>

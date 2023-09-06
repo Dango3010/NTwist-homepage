@@ -1,19 +1,17 @@
 /* parent header style */
-.container {
-  background-color: lightcyan;
+.container {  
+  height: 50px;
+  padding: 1.5em;
+  padding-bottom: 1em;
+  background-color: burlywood;
   position: fixed;
   width: -webkit-fill-available;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  z-index: 10;
 
-/* icon with text style*/
-.icon-with-text {
   display: flex;
-  justify-content: center;
-  font-size: 16px;
-  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .icon {
