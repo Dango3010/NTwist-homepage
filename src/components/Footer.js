@@ -1,6 +1,8 @@
 import React from 'react';
 import LinkWithName from './helper/LinkWithName';
 import '../styles/footerStyle.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return (
@@ -39,7 +41,20 @@ export default function Footer() {
           />
         </div>
         <p className='footDescription'>9650 20 Ave NW, Edmonton, AB, T6N 1G1, Canada</p>
-        <span>BIRDDD</span>
+        <div>
+          <a href='https://twitter.com/IncNtwist'>
+            <FontAwesomeIcon 
+              icon={faTwitter}
+              className='icon'
+            />
+          </a>
+          <a href='https://www.linkedin.com/company/ntwist/'>
+            <FontAwesomeIcon 
+              icon={faLinkedin}
+              className='icon'
+            />
+          </a>
+        </div>
         <span className='footDescription'>© 2022. Ntwist Inc.</span>
       </div>
     </div>
