@@ -1,7 +1,7 @@
 import React from 'react';
-import LinkWithName from './LinkWithName';
-import '../../styles/textImageStyle/contentStyle.css'
-import '../../styles/textImageStyle/topContentStyle.css'
+import LinkWithText from './LinkWithText';
+import '../../styles/helperStyle/textImageStyle/contentStyle.css'
+import '../../styles/helperStyle/textImageStyle/topContentStyle.css'
 
 //description and image in a flexbox
 export default function TextImage({
@@ -44,7 +44,7 @@ export default function TextImage({
         }
 
         {/* the button */}
-        <LinkWithName
+        <LinkWithText
           link={buttonLink}
           className={buttonClassName}
           text='Read More'

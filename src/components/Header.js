@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkWithName from './helper/LinkWithName';
+import LinkWithText from './helper/LinkWithText';
 import DropdownHeader from './helper/DropdownHeader';
 import '../styles/headerStyle/headerStyle.css'
 import '../styles/headerStyle/dropdownStyle.css'
@@ -14,7 +14,7 @@ export default function Header({ scrollState }) {
       <div className='group-link'>
         <nav>
           {/* the first page links */}
-          <LinkWithName
+          <LinkWithText
             className='navLinkText'
             link="https://ntwist.com/"
             text='HOME'
@@ -22,17 +22,17 @@ export default function Header({ scrollState }) {
           {/* dropdown INDUSTRIES link list */}
           <DropdownHeader />
           {/* the remaining page links */}
-          <LinkWithName
+          <LinkWithText
             className='navLinkText'
             link="https://ntwist.com/ai-software/"
             text='AI Software'
           />
-          <LinkWithName
+          <LinkWithText
             className='navLinkText'
             link="https://ntwist.com/blog/"
             text='Blog'
           />
-          <LinkWithName
+          <LinkWithText
             className='navLinkText'
             link="https://ntwist.com/contact-us"
             text='Contact Us'

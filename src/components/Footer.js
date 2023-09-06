@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkWithName from './helper/LinkWithName';
+import LinkWithText from './helper/LinkWithText';
 import '../styles/footerStyle.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -15,27 +15,27 @@ export default function Footer() {
         />
 
         <div>
-          <LinkWithName
+          <LinkWithText
             className='footText'
             link="https://ntwist.com/ntwist-cloned-4582/"
             text='Home'
           />
-          <LinkWithName
+          <LinkWithText
             className='footText'
             link="https://ntwist.com/about-us/"
             text='About Us'
           />
-          <LinkWithName
+          <LinkWithText
             className='footText'
             link="https://ntwist.com/contact-us/"
             text='Contact Us'
           />
-          <LinkWithName
+          <LinkWithText
             className='footText'
             link="https://ntwist.com/privacy-policy"
             text='Privacy Policy'
           />
-          <LinkWithName
+          <LinkWithText
             className='footText'
             link="https://ntwist.com/sitemap/"
             text='Sitemap'

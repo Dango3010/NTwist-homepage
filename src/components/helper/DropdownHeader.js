@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LinkWithName from './LinkWithName';
+import LinkWithText from './LinkWithText';
 import '../../styles/headerStyle/dropdownStyle.css'
 
 //header dropdown link list
@@ -18,28 +18,28 @@ export default function DropdownHeader() {
         className={`dropdown-content ${dropState ? 'show' : ''}`}
       >
         <li className='li-tag'>
-          <LinkWithName
+          <LinkWithText
             className='bold-text-dropdown'
             link="https://ntwist.com/project/sustainability-assistant/"
             text='Sustainability'
           />
         </li>
         <li className='li-tag'>
-          <LinkWithName
+          <LinkWithText
             className='bold-text-dropdown'
             link="https://ntwist.com/metal-mining/"
             text='Mineral Processing'
           />
         </li>
         <li className='li-tag'>
-          <LinkWithName
+          <LinkWithText
             className='bold-text-dropdown'
             link="https://ntwist.com/mine-to-mill-to-mine-optimization/"
             text='Mine-to-mill-to-mine optimization'
           />
         </li>
         <li className='li-tag'>
-          <LinkWithName
+          <LinkWithText
             className='bold-text-dropdown'
             link="https://ntwist.com/oil-gas/"
             text='Oil & Gas'
