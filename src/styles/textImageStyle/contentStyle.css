@@ -15,7 +15,7 @@
 }
 
 .heading {
-  font-size: 43px;
+  font-size: 50px;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
   color: red;
@@ -26,6 +26,7 @@
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
+  word-spacing: 5px;
   margin: 15px 0px;
 }
 
