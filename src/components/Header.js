@@ -1,5 +1,7 @@
-import React, {useState} from 'react';
-import '../styles/headerStyle.css'
+import React, { useState } from 'react';
+import LinkWithName from './helper/LinkWithName';
+import '../styles/headerStyle/headerStyle.css'
+import '../styles/headerStyle/dropdownStyle.css'
 
 export default function Header() {
   const [dropState, setDropState] = useState(false);
@@ -7,47 +9,74 @@ export default function Header() {
   return (
     <header className="container">
       <div className='icon-with-text'>
-        <img style={{ width: '181px', height: '65px' }} src="images/ntwist-logo-dark.png" alt='ntwist-icon' />
+        <img className='icon' src="images/ntwist-logo-dark.png" alt='ntwist-icon' />
       </div>
 
-      <div style={{ fontSize: '23px', paddingRight: '20px' }}>
+      <div className='group-link'>
         <nav>
-          <a className='bold-text' href="https://ntwist.com/">
-            HOME
-          </a>
+          <LinkWithName
+            className='navLinkText'
+            link="https://ntwist.com/"
+            text='HOME'
+          />
 
           <div className="dropdown">
-            <button className='dropbtn' onClick={() => setDropState(!dropState)}>
+            <button
+              className='dropbtn'
+              onClick={() => setDropState(!dropState)}
+            >
               INDUSTRIES
             </button>
 
-            <ul className={`dropdown-content ${dropState ? 'show' : ''}`}>
+            <ul
+              className={`dropdown-content ${dropState ? 'show' : ''}`}
+            >
               <li className='li-tag'>
-                <a className='bold-text-dropdown' href="https://ntwist.com/project/sustainability-assistant/">
-                  <span>Sustainability</span>
-                </a>
+                <LinkWithName
+                  className='bold-text-dropdown'
+                  link="https://ntwist.com/project/sustainability-assistant/"
+                  text='Sustainability'
+                />
               </li>
               <li className='li-tag'>
-                <a className='bold-text-dropdown' href="https://ntwist.com/metal-mining/">
-                  <span>Mineral Processing</span>
-                </a>
+                <LinkWithName
+                  className='bold-text-dropdown'
+                  link="https://ntwist.com/metal-mining/"
+                  text='Mineral Processing'
+                />
               </li>
               <li className='li-tag'>
-                <a className='bold-text-dropdown' href="https://ntwist.com/mine-to-mill-to-mine-optimization/">
-                  <span>Mine-to-mill-to-mine optimization</span>
-                </a>
+                <LinkWithName
+                  className='bold-text-dropdown'
+                  link="https://ntwist.com/mine-to-mill-to-mine-optimization/"
+                  text='Mine-to-mill-to-mine optimization'
+                />
               </li>
               <li className='li-tag'>
-                <a className='bold-text-dropdown' href="https://ntwist.com/oil-gas/">
-                  <span>Oil & Gas</span>
-                </a>
+                <LinkWithName
+                  className='bold-text-dropdown'
+                  link="https://ntwist.com/oil-gas/"
+                  text='Oil & Gas'
+                />
               </li>
             </ul>
           </div>
 
-          <a className='bold-text' href="https://ntwist.com/ai-software/">AI Software</a>
-          <a className='bold-text' href="https://ntwist.com/blog/">Blog</a>
-          <a className='bold-text' href="https://ntwist.com/contact-us/">Contact Us</a>
+          <LinkWithName
+            className='navLinkText'
+            link="https://ntwist.com/ai-software/"
+            text='AI Software'
+          />
+          <LinkWithName
+            className='navLinkText'
+            link="https://ntwist.com/blog/"
+            text='Blog'
+          />
+          <LinkWithName
+            className='navLinkText'
+            link="https://ntwist.com/contact-us"
+            text='Contact Us'
+          />
         </nav>
       </div>
     </header>

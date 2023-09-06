@@ -1,5 +1,6 @@
-.layout {
-  height: 503px;
+/* css for the first content */
+.topLayout {
+  height: 523px;
   margin: 5px;
   background-color: #b69f56;
   display: flex;
@@ -8,7 +9,7 @@
   justify-content: space-between;
 }
 
-.content {
+.topContent {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -16,22 +17,17 @@
   line-height: 25px;
 }
 
-.heading {
-  font-size: 43px;
-  color: red;
-  text-Transform: uppercase;
-}
-
-.description {
+.topDescription {
   font-size: 31px;
   font-weight: bold;
   font-family: Inter;
+  line-height: 1.25;
   color: white;
 }
 
-.image {
-  width: 45%;
-  margin: 50px;
-  height: 90%;
+.topImage {
+  width: 55%;
+  margin: 90px;
+  height: 86%;
 }
 

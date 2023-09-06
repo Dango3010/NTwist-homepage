@@ -1,0 +1,45 @@
+/* nav bar text style */
+.navLinkText {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: blue;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: text;
+}
+
+/* first blue button style */
+.topButton {
+  background-color: #2992ef;
+  color: white;
+  padding: 10px 10px;
+  width: 27%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* the remaining button style */
+.button {
+  background-color: #FF3A2D;
+  color: white;
+  padding: 13px 10px;
+  width: 20%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 24px 2px;
+  transition: background-color 0.3s ease;
+}

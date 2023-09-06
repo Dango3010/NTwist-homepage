@@ -1,11 +1,14 @@
 import React from 'react';
-import '../../styles/linkStyle.css'
+import '../../styles/linkButtonStyle.css'
 
 //a direct link with a name
-export default function LinkWithName ({text, className, link}) {
+export default function LinkWithName({ link, className, text }) {
 
   return (
-    <a className={className} href={link}>
+    <a
+      className={className}
+      href={link}
+    >
       <span>{text}</span>
     </a>
   )
