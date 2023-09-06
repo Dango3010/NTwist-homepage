@@ -15,7 +15,7 @@ export default function TextImage({
     >
       {/* the image is on the right for the contents with an odd order number, 
       and the image is on the left for contents with an even order number */}
-      {Number(altName[altName.length - 1]) % 2 === 0 && 
+      {Number(altName[altName.length - 1]) % 2 === 0 &&
         <img
           className={heading ? 'image' : 'topImage'}
           src={`images/${imageName}`}
@@ -51,7 +51,7 @@ export default function TextImage({
         />
       </div>
 
-      {Number(altName[altName.length - 1]) % 2 !== 0 && 
+      {Number(altName[altName.length - 1]) % 2 !== 0 &&
         <img
           className={heading ? 'image' : 'topImage'}
           src={`images/${imageName}`}
@@ -61,4 +61,3 @@ export default function TextImage({
     </div>
   );
 }
-

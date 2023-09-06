@@ -13,13 +13,15 @@ export default function Header() {
       {/* other page links */}
       <div className='group-link'>
         <nav>
+          {/* the first page links */}
           <LinkWithName
             className='navLinkText'
             link="https://ntwist.com/"
             text='HOME'
           />
-          {/* dropdown link list */}
+          {/* dropdown INDUSTRIES link list */}
           <DropdownHeader />
+          {/* the remaining page links */}
           <LinkWithName
             className='navLinkText'
             link="https://ntwist.com/ai-software/"

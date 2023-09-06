@@ -1,5 +1,5 @@
 /* parent header style */
-.container {  
+.container {
   height: 50px;
   padding: 1.5em;
   padding-bottom: 1em;
@@ -16,11 +16,11 @@
 }
 
 .icon {
-  width: 181px; 
+  width: 181px;
   height: 65px;
 }
 
 .group-link {
-  font-size: 23px; 
+  font-size: 23px;
   padding-right: 20px;
 }
