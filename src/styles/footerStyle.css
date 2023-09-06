@@ -1,13 +1,15 @@
 /* css for the remaining content */
 .footLayout {
-  margin: 5px;
-  background-color: black;
-  align-content: center;
+  background-color: #081528;
+  height: 28em;
+
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .footWrap {
-  line-height: 2.8;
+  line-height: 2.7;
   
   display: flex;
   align-items: center;
@@ -31,8 +33,7 @@
 }
 
 .footImage {
-  width: 8%;
-  margin: 100px 0px 0px 20px;
+  width: 21%;
   height: 90%;
 }
 
