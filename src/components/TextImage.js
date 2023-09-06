@@ -3,20 +3,20 @@ import LinkWithName from './helper/LinkWithName';
 import '../styles/textImageStyle.css'
 
 //description and image in a flexbox
-export default function TextImage ({ imageName, description, title, content, altName }){
+export default function TextImage ({ imageName, description, heading, altName, buttonLink }){
   return(
     <div className='layout'>
       
       <div className='content'>
-        {content 
-        ? (<span>{title}</span>)
+        {heading
+        ? (<span>{heading}</span>)
         : false
         }
         <span className='description'>{description}</span>
         <LinkWithName 
           text='Read More' 
           className='button'
-          link='https://ntwist.com/mine-to-mill-to-mine-optimization'
+          link={buttonLink}
         />
       </div>
       

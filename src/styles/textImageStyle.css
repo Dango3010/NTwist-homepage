@@ -8,26 +8,30 @@
   justify-content: space-between;
 }
 
-.image {
-  width: 50%;
-  margin: 20px;
-  height: 90%;
-}
-
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: left;
+  padding: 110px;
+  line-height: 25px;
+}
+
+.heading {
+  font-size: 43px;
+  color: red;
+  text-Transform: uppercase;
 }
 
 .description {
   font-size: 31px;
+  font-weight: bold;
+  font-family: Inter;
   color: white;
 }
 
-.title {
-  font-size: 15;
-  font-weight: bold;
-  text-Transform: uppercase;
+.image {
+  width: 50%;
+  margin: 20px;
+  height: 90%;
 }
 
