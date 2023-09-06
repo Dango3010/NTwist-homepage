@@ -13,6 +13,7 @@ export default function Footer() {
           src="https://ntwist.com/wp-content/uploads/2021/12/ntwistlight.png"
           alt=""
         />
+
         <div>
           <LinkWithName
             className='footText'
@@ -40,22 +41,29 @@ export default function Footer() {
             text='Sitemap'
           />
         </div>
-        <p className='footDescription'>9650 20 Ave NW, Edmonton, AB, T6N 1G1, Canada</p>
+
+        <p className='footDescription'>
+          9650 20 Ave NW, Edmonton, AB, T6N 1G1, Canada
+        </p>
+
         <div>
           <a href='https://twitter.com/IncNtwist'>
-            <FontAwesomeIcon 
+            <FontAwesomeIcon
               icon={faTwitter}
               className='icon'
             />
           </a>
           <a href='https://www.linkedin.com/company/ntwist/'>
-            <FontAwesomeIcon 
+            <FontAwesomeIcon
               icon={faLinkedin}
               className='icon'
             />
           </a>
         </div>
-        <span className='footDescription'>© 2022. Ntwist Inc.</span>
+
+        <span className='footDescription'>
+          © 2022. Ntwist Inc.
+        </span>
       </div>
     </div>
   );
