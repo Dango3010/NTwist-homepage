@@ -1,6 +1,7 @@
 /* css for the remaining content */
 .layout {
   margin: 5px;
+  
   display: flex;
   align-items: center;
   flex-direction: row;

@@ -1,8 +1,9 @@
 /* css for the first content */
 .topLayout {
-  height: 523px;
   margin: 5px;
+  height: 56em;
   background-image: url(/public/images/top-page.jpg);
+  
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -10,15 +11,15 @@
 }
 
 .topContent {
+  padding: 33px;
+  line-height: 25px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding: 110px;
-  line-height: 25px;
 }
 
 .topDescription {
-  font-size: 31px;
+  font-size: 37px;
   font-weight: bold;
   font-family: Inter;
   line-height: 1.25;
@@ -26,7 +27,7 @@
 }
 
 .topImage {
-  width: 55%;
+  width: 53%;
   margin: 90px;
-  height: 86%;
+  height: 56%;
 }
