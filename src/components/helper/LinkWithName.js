@@ -9,7 +9,7 @@ export default function LinkWithName({ link, className, text }) {
       className={className}
       href={link}
     >
-      <span>{text}</span>
+      {text}
     </a>
   )
 }

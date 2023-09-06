@@ -2,7 +2,7 @@
 .topLayout {
   height: 523px;
   margin: 5px;
-  background-color: #b69f56;
+  background-image: url(/public/images/top-page.jpg);
   display: flex;
   align-items: center;
   flex-direction: row;

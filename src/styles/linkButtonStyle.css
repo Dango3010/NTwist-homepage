@@ -2,7 +2,7 @@
 .navLinkText {
   font-weight: bold;
   text-transform: uppercase;
-  color: blue;
+  color: inherit;
   padding: 10px;
   font-size: 20px;
   text-decoration: none;

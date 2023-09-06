@@ -3,10 +3,11 @@
   height: 50px;
   padding: 1.5em;
   padding-bottom: 1em;
-  background-color: burlywood;
+  background-color: none;
   position: fixed;
   width: -webkit-fill-available;
   z-index: 10;
+  color: black; /* apply to all texts in the header */
 
   display: flex;
   flex-direction: row;
