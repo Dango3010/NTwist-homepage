@@ -50,13 +50,13 @@ export default function Footer() {
           <a href='https://twitter.com/IncNtwist'>
             <FontAwesomeIcon
               icon={faTwitter}
-              className='icon'
+              className='footIcon'
             />
           </a>
           <a href='https://www.linkedin.com/company/ntwist/'>
             <FontAwesomeIcon
               icon={faLinkedin}
-              className='icon'
+              className='footIcon'
             />
           </a>
         </div>

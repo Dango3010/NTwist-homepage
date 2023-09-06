@@ -1,7 +1,7 @@
 /* css for the remaining content */
 .footLayout {
   background-color: #081528;
-  height: 28em;
+  height: 27.5em;
 
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
 
 .footWrap {
   line-height: 2.7;
-  
+
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -33,13 +33,12 @@
 }
 
 .footImage {
-  width: 21%;
-  height: 90%;
+  width: 20%;
+  height: 88%;
 }
 
-.icon {
+.footIcon {
   color: white;
   width: 61px;
   height: 25px;
 }
-
