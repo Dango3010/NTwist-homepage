@@ -3,6 +3,7 @@
   margin: 5px;
   height: 56em;
   background-image: url(/public/images/top-page.jpg);
+  background-size: cover;
   
   display: flex;
   align-items: center;

@@ -15,6 +15,22 @@
   align-items: flex-end;
 }
 
+.showContainer {
+  height: 50px;
+  padding: 1.5em;
+  padding-bottom: 1em;
+  background-color: white;
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 10;
+  color: black; /* apply to all texts in the header */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .icon {
   width: 181px;
   height: 65px;

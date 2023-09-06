@@ -4,10 +4,10 @@ import DropdownHeader from './helper/DropdownHeader';
 import '../styles/headerStyle/headerStyle.css'
 import '../styles/headerStyle/dropdownStyle.css'
 
-export default function Header() {
+export default function Header({scrollState}) {
 
   return (
-    <header className="container">
+    <header className={scrollState ? 'showContainer' : 'container'}>
       {/* NTwist icon */}
       <img className='icon' src="images/ntwist-logo-dark.png" alt='ntwist-icon' />
       {/* other page links */}

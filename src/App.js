@@ -1,12 +1,38 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import Header from './components/Header';
 import Content from './components/Content';
 
 function App() {
+  const [scrollState, setScroll] = useState(false);
+  const [lastScrollState, setLastScroll] = useState(0);
+
+  function HandleScroll () {
+    if (typeof window !== 'undefined') { 
+      if (window.scrollY > lastScrollState) { // if scroll down, show the header
+        setScroll(true); 
+      } else { // if scroll up, hide the header
+        setScroll(false);
+      }
+
+      setLastScroll(window.scrollY);  //= where we are in the page in px
+    }
+  }
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', HandleScroll);
+
+      // cleanup the event
+      return () => {
+        window.removeEventListener('scroll', HandleScroll);
+      };
+    }
+  }, [lastScrollState]);
+
   return (
     <div className="App">
-      <Header />
+      <Header scrollState={scrollState}/>
       <Content />
     </div>
   );
