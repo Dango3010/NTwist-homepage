@@ -4,7 +4,7 @@ import DropdownHeader from './helper/DropdownHeader';
 import '../styles/headerStyle/headerStyle.css'
 import '../styles/headerStyle/dropdownStyle.css'
 
-export default function Header({scrollState}) {
+export default function Header({ scrollState }) {
 
   return (
     <header className={scrollState ? 'showContainer' : 'container'}>

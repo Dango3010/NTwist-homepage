@@ -1,0 +1,38 @@
+/* css for the remaining content */
+.footLayout {
+  margin: 5px;
+  background-color: black;
+  align-content: center;
+  align-items: center;
+}
+
+.footWrap {
+  line-height: 2.8;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footText {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footDescription {
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  color: #6F7F92;
+}
+
+.footImage {
+  width: 8%;
+  margin: 100px 0px 0px 20px;
+  height: 90%;
+}
+

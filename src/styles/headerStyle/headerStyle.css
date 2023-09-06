@@ -7,7 +7,7 @@
   position: fixed;
   width: -webkit-fill-available;
   z-index: 10;
-  color: black; /* apply to all texts in the header */
+  color: #003358; /* apply to all texts in the header */
 
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@
   position: fixed;
   width: -webkit-fill-available;
   z-index: 10;
-  color: black; /* apply to all texts in the header */
+  color: #003358; /* apply to all texts in the header */
 
   display: flex;
   flex-direction: row;

@@ -1,16 +1,17 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Content from './components/Content';
 
 function App() {
   const [scrollState, setScroll] = useState(false);
   const [lastScrollState, setLastScroll] = useState(0);
 
-  function HandleScroll () {
-    if (typeof window !== 'undefined') { 
+  function HandleScroll() {
+    if (typeof window !== 'undefined') {
       if (window.scrollY > lastScrollState) { // if scroll down, show the header
-        setScroll(true); 
+        setScroll(true);
       } else { // if scroll up, hide the header
         setScroll(false);
       }
@@ -32,8 +33,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header scrollState={scrollState}/>
+      <Header scrollState={scrollState} />
       <Content />
+      <Footer />
     </div>
   );
 }
