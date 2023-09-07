@@ -12,7 +12,7 @@ export default function DropdownHeader() {
         className='dropbtn'
         onClick={() => setDropState(!dropState)}
       >
-        INDUSTRIES
+        Industries
       </button>
       <ul
         className={`dropdown-content ${dropState ? 'show' : ''}`}
