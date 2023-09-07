@@ -8,7 +8,6 @@ export default function Header({ scrollState }) {
 
   return (
     <header className={scrollState ? 'showContainer' : 'container'}>
-      {/* NTwist icon */}
       <img
         className='icon'
         src="images/ntwist-logo-dark.png"
@@ -23,7 +22,7 @@ export default function Header({ scrollState }) {
           <LinkWithText
             className='navLinkText'
             link="https://ntwist.com/"
-            text='HOME'
+            text='Home'
           />
 
           {/* dropdown INDUSTRIES link list */}
