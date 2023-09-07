@@ -11,7 +11,7 @@
   background-color: inherit;
   font-weight: bold;
   font-size: 20px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: inherit;
   border: none;
 }
@@ -20,6 +20,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
+  text-align: -webkit-left;
   background-color: #f9f9f9;
   min-width: 360px;
   box-shadow: 0px 8;
@@ -32,9 +33,13 @@
   text-transform: capitalize;
   padding: 10px;
   font-size: 20px;
-  color: inherit;
+  color: #003358;
   text-decoration: none;
   cursor: text;
+}
+
+.bold-text-dropdown:hover {
+  text-decoration: underline;
 }
 
 /* list tag style */
