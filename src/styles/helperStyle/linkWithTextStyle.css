@@ -1,7 +1,7 @@
 /* nav bar text style */
 .navLinkText {
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: inherit;
   padding: 10px;
   font-size: 20px;
