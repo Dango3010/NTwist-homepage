@@ -6,17 +6,14 @@ import Content from './components/Content';
 
 function App() {
   const [scrollState, setScroll] = useState(false);
-  const [lastScrollState, setLastScroll] = useState(0);
 
   function HandleScroll() {
     if (typeof window !== 'undefined') {
-      if (window.scrollY > lastScrollState) { // if scroll down, show the header
+      if (window.scrollY > 600) { // if scroll over the first image, show the header
         setScroll(true);
-      } else { // if scroll up, hide the header
+      } else { // if scroll up and reach the first image, hide the header
         setScroll(false);
       }
-
-      setLastScroll(window.scrollY);  //= where we are in the page in px
     }
   }
 
@@ -29,7 +26,7 @@ function App() {
         window.removeEventListener('scroll', HandleScroll);
       };
     }
-  }, [lastScrollState]);
+  }, []);
 
   return (
     <div className="App">
