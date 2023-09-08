@@ -4,17 +4,19 @@ import DropdownHeader from './helper/DropdownHeader';
 import '../styles/headerStyle/headerStyle.css'
 import '../styles/headerStyle/dropdownStyle.css'
 
+// the header bar on top of homepage
 export default function Header({ scrollState }) {
 
   return (
     <header className={scrollState ? 'showContainer' : 'container'}>
+      {/* NTWIST icon */}
       <img
         className='icon'
         src="images/ntwist-logo-dark.png"
         alt='ntwist-icon'
       />
 
-      {/* other page links */}
+      {/* page links */}
       <div className='group-link'>
         <nav>
 
@@ -25,7 +27,7 @@ export default function Header({ scrollState }) {
             text='Home'
           />
 
-          {/* dropdown INDUSTRIES link list */}
+          {/* dropdown Industries link list */}
           <DropdownHeader />
 
           {/* the remaining page links */}
