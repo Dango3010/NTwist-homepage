@@ -1,3 +1,5 @@
+// an array of object of all the images, descriptions and links in the page content based on the 5 sections,
+// including the introduction section
 const contents = [
   {
     id: 0,

@@ -3,7 +3,8 @@ import LinkWithText from './LinkWithText';
 import '../../styles/helperStyle/textImageStyle/contentStyle.css'
 import '../../styles/helperStyle/textImageStyle/topContentStyle.css'
 
-//description and image in a flexbox
+//description, link and image for each of the following sections: 
+// Mine-To-Mill-To-Mine Optimization, Sustainability, Mineral Processing, Oil & Gas
 export default function TextImage({
   imageName, description, heading,
   altName, buttonLink, buttonClassName,
@@ -43,7 +44,7 @@ export default function TextImage({
           : false
         }
 
-        {/* the button */}
+        {/* the 'read more' button */}
         <LinkWithText
           link={buttonLink}
           className={buttonClassName}

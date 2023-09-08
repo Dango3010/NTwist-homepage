@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import LinkWithText from './LinkWithText';
 import '../../styles/headerStyle/dropdownStyle.css'
 
-//header dropdown link list
+//header dropdown link list for 'Industries'
 export default function DropdownHeader() {
   const [dropState, setDropState] = useState(false);
 
@@ -14,6 +14,8 @@ export default function DropdownHeader() {
       >
         Industries
       </button>
+      
+      {/* link list */}
       <ul
         className={`dropdown-content ${dropState ? 'show' : ''}`}
       >

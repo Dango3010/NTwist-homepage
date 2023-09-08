@@ -4,16 +4,19 @@ import '../styles/footerStyle.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+// the black footer at the bottom of the page
 export default function Footer() {
   return (
     <div className='footLayout'>
       <div className='footWrap'>
+        {/* NTwist logo */}
         <img
           className='footImage'
           src="https://ntwist.com/wp-content/uploads/2021/12/ntwistlight.png"
           alt=""
         />
 
+        {/* all page links */}
         <div>
           <LinkWithText
             className='footText'
@@ -46,6 +49,7 @@ export default function Footer() {
           9650 20 Ave NW, Edmonton, AB, T6N 1G1, Canada
         </p>
 
+        {/* social media links */}
         <div>
           <a href='https://twitter.com/IncNtwist'>
             <FontAwesomeIcon

@@ -2,6 +2,7 @@ import React from 'react';
 import TextImage from './helper/TextImage'
 import contents from '../strings-obj-data/contents';
 
+// all the images, descriptions and links in the page content
 export default function Content() {
   return (
     <div>

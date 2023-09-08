@@ -1,10 +1,11 @@
 import React from 'react';
-import LinkWithText from './helper/LinkWithText';
-import DropdownHeader from './helper/DropdownHeader';
 import '../styles/headerStyle/headerStyle.css'
 import '../styles/headerStyle/dropdownStyle.css'
 
-// the header bar on top of homepage
+import LinkWithText from './helper/LinkWithText';
+import DropdownHeader from './helper/DropdownHeader';
+
+// the header bar of homepage
 export default function Header({ scrollState }) {
 
   return (
@@ -19,8 +20,7 @@ export default function Header({ scrollState }) {
       {/* page links */}
       <div className='group-link'>
         <nav>
-
-          {/* the first page links */}
+          {/* the first page link */}
           <LinkWithText
             className='navLinkText'
             link="https://ntwist.com/"
